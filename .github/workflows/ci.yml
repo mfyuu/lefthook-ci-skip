@@ -27,7 +27,7 @@ jobs:
         run: pnpm install
         # lefthook skip
         env:
-          LEFTHOOK: 0
+          LEFTHOOK_SKIP: 0
 
       - name: Update README
         run: |
