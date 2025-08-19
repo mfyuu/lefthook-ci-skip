@@ -1,0 +1,12 @@
+{
+	"devDependencies": {
+		"@antfu/ni": "^25.0.0",
+		"@biomejs/biome": "2.2.0",
+		"lefthook": "^1.12.3"
+	},
+	"scripts": {
+		"preinstall": "npx only-allow pnpm",
+		"prepare": "lefthook install",
+		"format": "biome format --write ."
+	}
+}
