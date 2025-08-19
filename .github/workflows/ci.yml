@@ -27,7 +27,7 @@ jobs:
         run: pnpm install
         # lefthook skip
         env:
-          LEFTHOOK_SKIP: pre-commit, pre-push
+          CI: true
 
       - name: Update README
         run: |
