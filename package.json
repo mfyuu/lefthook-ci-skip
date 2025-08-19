@@ -8,5 +8,6 @@
 		"preinstall": "npx only-allow pnpm",
 		"prepare": "lefthook install",
 		"format": "biome format --write ."
-	}
+	},
+	"packageManager": "pnpm@10.14.0"
 }
